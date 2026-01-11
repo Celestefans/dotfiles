@@ -74,7 +74,9 @@ ZSH_THEME="robbyrussell"
 plugins=(
 	git
 	zsh-autosuggestions
-  	zsh-syntax-highlighting
+  zsh-syntax-highlighting
+	z
+	extract
 )
 
 source $ZSH/oh-my-zsh.sh
