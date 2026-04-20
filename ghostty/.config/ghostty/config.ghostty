@@ -1,0 +1,59 @@
+# --- 字体与外观 (根据你的喜好调整) ---
+font-family = FiraCode Nerd Font Mono
+font-size = 14
+font-feature = calt,liga
+gtk-single-instance = false
+# --- 主题与颜色 (修正写法，并确保 Snap 版本能加载) ---
+
+
+# --- 窗口样式 (移除 background-blur-radius) ---
+background-opacity = 0.9
+background-blur-radius = 20
+macos-titlebar-style = transparent
+window-padding-x = 10
+window-padding-y = 8
+window-save-state = always
+window-theme = auto
+
+# --- 光标与交互 ---
+cursor-style = bar
+cursor-style-blink = true
+cursor-opacity = 0.8
+
+mouse-hide-while-typing = true
+copy-on-select = clipboard
+
+quick-terminal-position = top
+quick-terminal-screen = mouse
+quick-terminal-autohide = true
+quick-terminal-animation-duration = 0.15
+
+clipboard-paste-protection = true
+clipboard-paste-bracketed-safe = true
+
+keybind = ctrl+t=new_tab
+keybind = ctrl+shift+left=previous_tab
+keybind = ctrl+shift+right=next_tab
+keybind = ctrl+w=close_surface
+
+keybind = ctrl+d=new_split:right
+keybind = ctrl+shift+d=new_split:down
+keybind = ctrl+alt+left=goto_split:left
+keybind = ctrl+alt+right=goto_split:right
+keybind = ctrl+alt+up=goto_split:top
+keybind = ctrl+alt+down=goto_split:bottom
+keybind = ctrl+left=goto_split:previous
+keybind = ctrl+right=goto_split:next
+
+keybind = ctrl+plus=increase_font_size:1
+keybind = ctrl+minus=decrease_font_size:1
+keybind = ctrl+zero=reset_font_size
+
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
+
+keybind = ctrl+shift+e=equalize_splits
+keybind = ctrl+shift+f=toggle_split_zoom
+keybind = ctrl+v=paste_from_clipboard
+
+keybind = ctrl+r=clear_screen
+keybind = ctrl+shift+comma=reload_config
